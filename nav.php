@@ -279,12 +279,21 @@
                             <button class="btn btn-primary btn-sm" id="btn"><i class="fas fa-arrow-circle-up"></i></button>
                           </td>
                         </tr>
-                        <tr>
-                          <td id="mostrar ">
-                              <p>OOOOO</p>
-                              <p>JRIENT</p>
-                              <p>meopnorpnrp</p>
-                          </td>
+                        <tr id="mostrar" class="mostrar table-condensed" name="mostrar">
+                          <div class="row">
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12">
+                              <td>OOOO</td>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12">
+                              <td>OOOO</td>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12">
+                              <td>OOOO</td>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12">
+                              <td>OOOO</td>
+                            </div>
+                          </div>
                         </tr>
                       </tbody>
                       <tbody class="letra ">
@@ -468,7 +477,7 @@
   </div>
 </div>
 <script>
-document.getElementById("btn").addEventListener("click", function() {
-    document.getElementById("mostrar").style.display="block";
-});
+  document.getElementById("btn").addEventListener("click", function() {
+      document.getElementById("mostrar").style.display="block";
+  });
 </script>
