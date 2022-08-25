@@ -280,23 +280,43 @@
                           </td>
                         </tr>
                         <tr id="mostrar" class="mostrar table-condensed" name="mostrar">
-                          <div class="row">
-                            <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12">
-                              <td>OOOO</td>
-                            </div>
-                            <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12">
-                              <td>OOOO</td>
-                            </div>
-                            <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12">
-                              <td>OOOO</td>
-                            </div>
-                            <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12">
-                              <td>OOOO</td>
-                            </div>
-                          </div>
+                            <td colspan="7">
+                              <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                  <p><span>Modelo:</span>                                <span>2016</span></p>
+                                  <p><span>Amis:</span>                                  <span>05673</span></p>
+                                  <p><span>Salvamento:</span>                                  <span></span></p>
+                                  <p><span>Institucion:</span>                                  <span></span></p>
+                                  <p><span>Tipo Cobranza:</span>                                  <span>Pago Referenciado</span></p>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                  <p><span>Apellido Paterno: ZTECA, S.A. DE C.V.</span></p>
+                                  <p><span>Apellido Materno:</span></p>
+                                  <p><span>Nombre: MANTENIMIENTOS Y SUMINISTROS AZTECA SA DE CV</span></p>
+                                  <p><span>Correo:</span></p>
+                                  <p><span>Teléfono:</span></p>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                  <p><span>Usuario: sise</span></p>
+                                  <p><span>Campo Clave: 4336</span></p>
+                                  <p><span>Clave Agente: 9692</span></p>
+                                  <p><span>Status: vencida</span></p>
+                                  <p><span>Cobertura: amplia</span></p>
+                                  <p><span>Tipo Pago: contado</span></p>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                  <p><span>Fecha Inicio: 2020-05-30</span></p>
+                                  <p><span>Fecha Finaliza: 2021-05-30</span></p>
+                                  <p><span>Fecha Emision OPL: 2021-03-04 14:12:54</span></p>
+                                  <p><span>Fecha Cancelación:</span></p>
+                                  <p><span>Monto: $11,977.55</span></p>
+                                </div>
+                              </div>
+                            </td>
                         </tr>
                       </tbody>
                       <tbody class="letra ">
+                        <tr>
                         <td>0003839366</td>
                         <td>4053527273</td>
                         <td></td>
@@ -309,6 +329,42 @@
                           </button>
                           <button class="btn btn-primary btn-sm" id="btn"><i class="fas fa-arrow-circle-up"></i></button>  
                         </td>
+                        </tr>
+                        <tr id="mostrar" class="mostrar table-condensed" name="mostrar">
+                            <td colspan="7">
+                              <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                  <p><span>Modelo:</span>                                <span>2016</span></p>
+                                  <p><span>Amis:</span>                                  <span>05673</span></p>
+                                  <p><span>Salvamento:</span>                                  <span></span></p>
+                                  <p><span>Institucion:</span>                                  <span></span></p>
+                                  <p><span>Tipo Cobranza:</span>                                  <span>Pago Referenciado</span></p>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                  <p><span>Apellido Paterno: ZTECA, S.A. DE C.V.</span></p>
+                                  <p><span>Apellido Materno:</span></p>
+                                  <p><span>Nombre: MANTENIMIENTOS Y SUMINISTROS AZTECA SA DE CV</span></p>
+                                  <p><span>Correo:</span></p>
+                                  <p><span>Teléfono:</span></p>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                  <p><span>Usuario: sise</span></p>
+                                  <p><span>Campo Clave: 4336</span></p>
+                                  <p><span>Clave Agente: 9692</span></p>
+                                  <p><span>Status: vencida</span></p>
+                                  <p><span>Cobertura: amplia</span></p>
+                                  <p><span>Tipo Pago: contado</span></p>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                  <p><span>Fecha Inicio: 2020-05-30</span></p>
+                                  <p><span>Fecha Finaliza: 2021-05-30</span></p>
+                                  <p><span>Fecha Emision OPL: 2021-03-04 14:12:54</span></p>
+                                  <p><span>Fecha Cancelación:</span></p>
+                                  <p><span>Monto: $11,977.55</span></p>
+                                </div>
+                              </div>
+                            </td>
+                        </tr>
                       </tbody>
                       <tbody class="letra ">
                         <td>004166834</td>
@@ -476,8 +532,12 @@
     </div>
   </div>
 </div>
-<script>
-  document.getElementById("btn").addEventListener("click", function() {
-      document.getElementById("mostrar").style.display="block";
-  });
-</script>
+<!-- End Modal -->
+
+<!-- script -->
+  <script>
+    document.getElementById("btn").addEventListener("click", function() {
+        document.getElementById("mostrar").style.display="table-row";
+    });
+  </script>
+<!-- End script -->
